@@ -25,7 +25,7 @@ useEffect(() => {
       </Section>
       <Section title="Contacts">
         <Filter />
-        {isLoading && !error && <Loader/>}
+        {isLoading && !error && <Loader />}
         {error && <p>{error}</p>}
         {!isLoading && <ContactList/>}
       </Section>
